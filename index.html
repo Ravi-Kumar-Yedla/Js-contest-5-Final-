@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" id="search" placeholder="Search By Name or Symbol">
+    <button onclick="search()">Sort By Mkt Market</button>
+    <button onclick="sort()">Sort By percentage</button>
+    <table id="cryptoTable" border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Id</th>
+            <th>Symbol</th>
+            <th>Current Price (USD)</th>
+            <th>Image</th>
+          </tr>
+        </thead>
+        <tbody id="cryptoBody"></tbody>
+      </table>
+      <script src="./script.js"></script>
+</body>
+</html>
